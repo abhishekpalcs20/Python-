@@ -1,0 +1,6 @@
+p=int(input("enter the value of principle : "))
+r=int(input("enter the value of rate : "))
+t=int(input("enter the value of time : "))
+n=int(input("enter the value of number of times intrest applied per time period : ")
+ci=(p*(1+r/n))**(n*t))
+print("the value of ci is",ci)
